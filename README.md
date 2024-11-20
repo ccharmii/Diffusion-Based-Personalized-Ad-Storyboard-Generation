@@ -1,3 +1,5 @@
+## Diffusion 기반 상품 맞춤형 광고 스토리보드 생성
+
 ### 1. 배경 및 목적
 ##### 배경
 - 스토리보드는 광고 아이디어를 구체화하고 시각적으로 표현하는 데 중요한 역할을 하며 초기 광고 기획 단계에서 광고의 전체적인 흐름과 핵심 메세지를 시각화해줌
@@ -42,7 +44,9 @@
   - 이미지 스타일의 일관성 있는 생성을 위해 컬러 이미지들을 모두 흑백 이미지로 변환
   - image caption에 ‘a grayscale sketch of’ 를 추가해서 흑백 스케치 형태의 아웃풋이 나오도록 함
 ### 5. Demo
-Demo video: <video src="Demo/최종_그라디오시연.mp4" controls width="600"></video>
+##### [Demo Video]
+[![Demo video](https://img.youtube.com/vi/SSBxPj4Wj2o/0.jpg)](https://www.youtube.com/watch?v=SSBxPj4Wj2o)
+##### [Demo Images] 
 ![1](https://github.com/user-attachments/assets/c11aef2b-c235-4f7b-94c8-29ac085e5909)
 ![2](https://github.com/user-attachments/assets/836f59e9-e389-454a-983f-93379e0ab8b7)
 ![3](https://github.com/user-attachments/assets/44c5ce6d-3bda-438e-9fdf-ad96fe48e681)
