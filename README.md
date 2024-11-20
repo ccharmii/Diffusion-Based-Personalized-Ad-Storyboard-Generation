@@ -10,18 +10,18 @@
   - 전처리 완료된 장면별 광고 아이디어 텍스트는 SDXL (Stable Diffusion XL)의 인풋 프롬프트로 입력됨
   - SDXL (Stable Diffusion XL)은 해당 프롬프트를 기반으로 장면 별 스토리보드 이미지를 생성
 - **출력**: 프롬프트 (장면 설명), 스토리보드 이미지(6장)가 합쳐져서 하나의 새로운 광고 스토리보드를 생성
-### Models and Technologies
-#### 1. Bllossom-8B
+## Models and Technologies
+### 1. Bllossom-8B
 - Llama3를 기반으로 한 한국어-영어 이중 언어 모델
 - 한국어 문화와 언어를 고려하여 제작한 데이터를 활용해서 fine-tuning된 모델
 - 프롬프트 튜닝 진행
   - LLM에게 역할을 부여하는 PROMPT 와 원하는 명령을 집어넣는 Instruction으로 나눠 프롬프트 튜닝
   - 이미지 생성 모델의 fine-tuning 데이터의 구조와 유사하게 텍스트를 구성하기 위해 상황, 인물 설명, 카메라 구도를 나누고 장면 수를 6개로 고정시킴
-#### 2. Prompt Preprocessing
+### 2. Prompt Preprocessing
 - 텍스트 전처리 진행
 - 번역: mBART50 모델 사용 → 한국어 문장을 영어로 번역
 - 요약: BART 요약 모델 사용 → 번역 문장이 Image Generation 모델에서 처리 가능한 최대 토큰 수인 77토큰을 넘을 경우, 77토큰 이하로 문장을 요약
-##### 3. SDXL (Stable Diffusion XL)
+### 3. SDXL (Stable Diffusion XL)
 - 다양한 프롬프트에 대해 고해상도 이미지를 생성하는 성능이 검증된 대표적인 오픈소스 이미지 생성 모델
 - 이미지에 추가된 노이즈를 예측하는 Latent Diffusion 방식을 사용해 효율적이고 빠른 이미지 생성 가능
 - LoRA Fine-Tuning
