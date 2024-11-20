@@ -42,10 +42,15 @@
   - 이미지 스타일의 일관성 있는 생성을 위해 컬러 이미지들을 모두 흑백 이미지로 변환
   - image caption에 ‘a grayscale sketch of’ 를 추가해서 흑백 스케치 형태의 아웃풋이 나오도록 함
 ### 5. Demo
-(데모 영상 넣을 예정)
+<video src="demo/demo.mp4" controls width="600"></video>
+![1](https://github.com/user-attachments/assets/c11aef2b-c235-4f7b-94c8-29ac085e5909)
+![2](https://github.com/user-attachments/assets/836f59e9-e389-454a-983f-93379e0ab8b7)
+![3](https://github.com/user-attachments/assets/44c5ce6d-3bda-438e-9fdf-ad96fe48e681)
+
 ### 6. 느낀 점
 ##### 권민지
 ##### 김차미
 ##### 노명진
 ##### 이지민
+
 ### 7. 발표 영상
